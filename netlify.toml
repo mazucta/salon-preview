@@ -1,0 +1,10 @@
+# Netlify deploy config for a Vite static build
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# SPA-style fallback (safe for this single-page site)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

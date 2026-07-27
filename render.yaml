@@ -1,0 +1,15 @@
+# Render deploy config — static site.
+#
+# The booking backend is a SEPARATE service: the shared "Booking Hub"
+# (github.com/mazucta/Telegram-sign-up-bot). This site is purely static and
+# calls the Hub's API (see src/config.js → HUB_URL).
+services:
+  - type: web
+    name: salon-template
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

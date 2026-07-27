@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "services": "Services",
+    "pricing": "Pricing",
+    "gallery": "Work",
+    "contact": "Book",
+    "menu": "Menu"
+  },
+  "hero": {
+    "signature": "Beauty studio",
+    "statement": "Haircuts that need no styling",
+    "intro": "Color that grows out beautifully and a shape that holds itself. AirTouch, balayage, toning.",
+    "cta_book": "Book now",
+    "cta_gallery": "See the work"
+  },
+  "services": {
+    "lead": "Cuts, color and hair recovery.",
+    "title": "Services",
+    "items": [
+      {
+        "number": "01",
+        "title": "Haircuts",
+        "points": [
+          "Women's cuts that need no styling",
+          "Men's haircuts",
+          "Kids' haircuts",
+          "Fringe trim",
+          "Blowout & styling",
+          "Shape & color consultation"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Coloring",
+        "points": [
+          "AirTouch",
+          "Balayage",
+          "Highlights",
+          "Face-framing contouring",
+          "Single-tone coloring",
+          "Toning / gloss"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Care & Repair",
+        "points": [
+          "Hair repair treatment",
+          "Scalp peeling",
+          "In-salon MEDAVITA treatments",
+          "Personalized home-care selection"
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "lead": "Honest and upfront. No “DM for price”.",
+    "title": "Prices",
+    "col_first": "Price",
+    "col_correction": "",
+    "categories": [
+      {
+        "title": "Cuts & Styling",
+        "rows": [
+          {
+            "name": "Women's haircut · 60 min",
+            "first": "30-45 €",
+            "correction": ""
+          },
+          {
+            "name": "Men's haircut · 60 min",
+            "first": "25 €",
+            "correction": ""
+          },
+          {
+            "name": "Kids' haircut · 60 min",
+            "first": "25 €",
+            "correction": ""
+          },
+          {
+            "name": "Fringe trim · 15 min",
+            "first": "from 10 €",
+            "correction": ""
+          },
+          {
+            "name": "Styling · 60 min",
+            "first": "25-30 €",
+            "correction": ""
+          }
+        ]
+      },
+      {
+        "title": "Coloring",
+        "rows": [
+          {
+            "name": "Air Touch · 4-5 h",
+            "first": "200-300 €",
+            "correction": ""
+          },
+          {
+            "name": "Balayage · 3 h",
+            "first": "150-250 €",
+            "correction": ""
+          },
+          {
+            "name": "Face-framing contouring · 2 h",
+            "first": "120-150 €",
+            "correction": ""
+          },
+          {
+            "name": "Single-tone coloring, short hair · 2 h",
+            "first": "on request",
+            "correction": ""
+          },
+          {
+            "name": "Single-tone coloring, medium length · 2 h",
+            "first": "on request",
+            "correction": ""
+          },
+          {
+            "name": "Single-tone coloring, long hair · 3 h",
+            "first": "75-85 €",
+            "correction": ""
+          },
+          {
+            "name": "Toning · 60 min",
+            "first": "50-60 €",
+            "correction": ""
+          },
+          {
+            "name": "Highlights, roots · 3 h",
+            "first": "on request",
+            "correction": ""
+          },
+          {
+            "name": "Highlights, full length · 4 h",
+            "first": "on request",
+            "correction": ""
+          },
+          {
+            "name": "Root lightening (total blond): lightening + toning · 3 h",
+            "first": "on request",
+            "correction": ""
+          }
+        ]
+      },
+      {
+        "title": "Care",
+        "rows": [
+          {
+            "name": "Hair repair treatment · 60 min",
+            "first": "65-85 €",
+            "correction": ""
+          },
+          {
+            "name": "Scalp peeling · 60 min",
+            "first": "50 €",
+            "correction": ""
+          },
+          {
+            "name": "Consultation · 15 min",
+            "first": "free",
+            "correction": ""
+          }
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "lead": "Drag the slider: the “before” is under there.",
+    "title": "Before and after",
+    "before": "before",
+    "after": "after",
+    "slider_label": "Compare before and after",
+    "prev": "Previous slide",
+    "next": "Next slide",
+    "photo_alt": "Work: before and after"
+  },
+  "contact": {
+    "caps": "Book now",
+    "title": "Booking",
+    "intro": "Pick a convenient date and time and send a request. We will confirm shortly.",
+    "form": {
+      "name": "Name",
+      "method": "How can I reach you?",
+      "contact": "Phone or username",
+      "contact_whatsapp": "Your WhatsApp number",
+      "contact_telegram": "Your Telegram @username",
+      "contact_instagram": "Your Instagram @username",
+      "limit": "Daily request limit reached. Please try tomorrow.",
+      "service": "Service",
+      "service_placeholder": "Choose a service",
+      "date": "Preferred date",
+      "time": "Time",
+      "time_placeholder": "Choose a time",
+      "loading_times": "Loading available times…",
+      "no_slots": "No free slots on this day. Please pick another date.",
+      "pick_date_first": "Pick a date to see available times.",
+      "message": "Message",
+      "submit": "Send request",
+      "sending": "Sending…",
+      "success": "Thank you!",
+      "success_note": "We will review the request and confirm your appointment shortly.",
+      "notify": "Telegram notifications",
+      "notify_note": "Tap the button and Start · we will message you if the booking is confirmed, moved or cancelled.",
+      "nearest": "Nearest available date",
+      "no_dates": "No free dates yet. Please try again later.",
+      "slot_taken": "This slot was just taken, please pick another.",
+      "error": "Something went wrong. Please try again.",
+      "required": "Please fill in this field."
+    },
+    "services_options": [
+      "Haircut · 60 min · 30-45 €",
+      "Men's haircut · 60 min · 25 €",
+      "Kids' haircut · 60 min · 25 €",
+      "Fringe trim · 15 min",
+      "Styling · 60 min · 25-30 €",
+      "Single-tone coloring (short hair) · 2 h",
+      "Single-tone coloring (medium length) · 2 h",
+      "Single-tone coloring (long hair) · 3 h · 75-85 €",
+      "Toning · 60 min · 50-60 €",
+      "Highlights (roots) · 3 h",
+      "Highlights (full length) · 4 h",
+      "Air Touch · 4-5 h · 200-300 €",
+      "Balayage · 3 h · 150-250 €",
+      "Face-framing contouring · 2 h · 120-150 €",
+      "Root lightening (total blond) · 3 h",
+      "Hair repair treatment · 60 min · 65-85 €",
+      "Scalp peeling · 60 min · 50 €",
+      "Consultation · 15 min · free",
+      "Other"
+    ]
+  },
+  "footer": {
+    "tagline": "Hair & Color",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint"
+  },
+  "chat": {
+    "title": "Questions",
+    "open": "Ask a question",
+    "close": "Close",
+    "placeholder": "Type your question…",
+    "send": "Send",
+    "greeting": "Hi! Ask about services, prices or booking.",
+    "fallback": "I do not know the answer to that yet."
+  }
+}

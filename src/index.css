@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-base text-charcoal font-sans antialiased;
+  }
+
+  /* Headings default to the display face */
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+  }
+
+  /* Accessible focus ring in the accent colour */
+  :focus-visible {
+    outline: 2px solid theme('colors.accent');
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  /* Small uppercase label — form fields and fine print only, not section headings */
+  .caps-label {
+    @apply font-sans text-xs uppercase tracking-caps text-muted;
+  }
+
+  /* Pill-shaped buttons */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5
+      font-sans text-sm font-semibold transition-all duration-300 active:scale-[0.98];
+  }
+
+  .btn-filled {
+    @apply btn bg-accent hover:bg-accent-dark hover:shadow-lg hover:-translate-y-0.5;
+    color: #171310; /* dark text on caramel */
+  }
+
+  .btn-outline {
+    @apply btn border border-accent text-charcoal hover:bg-accent
+      hover:-translate-y-0.5;
+  }
+  .btn-outline:hover {
+    color: #171310; /* dark text once filled caramel */
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .btn-filled:hover,
+    .btn-outline:hover {
+      transform: none;
+    }
+  }
+
+  /* Thin horizontal divider line */
+  .hairline {
+    @apply border-t border-line;
+  }
+}

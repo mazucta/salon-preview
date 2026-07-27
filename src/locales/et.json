@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "services": "Teenused",
+    "pricing": "Hinnakiri",
+    "gallery": "Tööd",
+    "contact": "Broneeri",
+    "menu": "Menüü"
+  },
+  "hero": {
+    "signature": "Ilustuudio",
+    "statement": "Lõikused, mis ei vaja soengut",
+    "intro": "Värv, mis kasvab välja kaunilt, ja vorm, mis püsib ise. AirTouch, balayage, toneerimine.",
+    "cta_book": "Broneeri aeg",
+    "cta_gallery": "Vaata töid"
+  },
+  "services": {
+    "lead": "Lõikused, värvimine ja juuste taastamine.",
+    "title": "Teenused",
+    "items": [
+      {
+        "number": "01",
+        "title": "Lõikused",
+        "points": [
+          "Naiste lõikused, mis ei vaja soengut",
+          "Meeste lõikused",
+          "Laste lõikused",
+          "Tuka lõikus",
+          "Föönisoeng",
+          "Vormi ja värvi konsultatsioon"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Värvimine",
+        "points": [
+          "AirTouch",
+          "Balayage",
+          "Triibutamine",
+          "Näoümbruse helendamine (contouring)",
+          "Ühetooniline värvimine",
+          "Toneerimine"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Hooldus ja taastamine",
+        "points": [
+          "Juuste taastav hooldus",
+          "Peanaha koorimine",
+          "MEDAVITA salongihooldused",
+          "Koduhoolduse valik"
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "lead": "Aus ja ette teada. Mitte mingit «hind DM-is».",
+    "title": "Hinnad",
+    "col_first": "Hind",
+    "col_correction": "",
+    "categories": [
+      {
+        "title": "Lõikused ja soengud",
+        "rows": [
+          {
+            "name": "Naiste lõikus · 60 min",
+            "first": "30-45 €",
+            "correction": ""
+          },
+          {
+            "name": "Meeste lõikus · 60 min",
+            "first": "25 €",
+            "correction": ""
+          },
+          {
+            "name": "Laste lõikus · 60 min",
+            "first": "25 €",
+            "correction": ""
+          },
+          {
+            "name": "Tuka lõikus · 15 min",
+            "first": "alates 10 €",
+            "correction": ""
+          },
+          {
+            "name": "Föönisoeng · 60 min",
+            "first": "25-30 €",
+            "correction": ""
+          }
+        ]
+      },
+      {
+        "title": "Värvimine",
+        "rows": [
+          {
+            "name": "Air Touch · 4-5 t",
+            "first": "200-300 €",
+            "correction": ""
+          },
+          {
+            "name": "Balayage · 3 t",
+            "first": "150-250 €",
+            "correction": ""
+          },
+          {
+            "name": "Näoümbruse helendamine · 2 t",
+            "first": "120-150 €",
+            "correction": ""
+          },
+          {
+            "name": "Ühetooniline värvimine, lühikesed juuksed · 2 t",
+            "first": "kokkuleppel",
+            "correction": ""
+          },
+          {
+            "name": "Ühetooniline värvimine, keskmine pikkus · 2 t",
+            "first": "kokkuleppel",
+            "correction": ""
+          },
+          {
+            "name": "Ühetooniline värvimine, pikad juuksed · 3 t",
+            "first": "75-85 €",
+            "correction": ""
+          },
+          {
+            "name": "Toneerimine · 60 min",
+            "first": "50-60 €",
+            "correction": ""
+          },
+          {
+            "name": "Triibutamine, juured · 3 t",
+            "first": "kokkuleppel",
+            "correction": ""
+          },
+          {
+            "name": "Triibutamine, kogu pikkus · 4 t",
+            "first": "kokkuleppel",
+            "correction": ""
+          },
+          {
+            "name": "Juurte helendamine (total blond): helendamine + toneerimine · 3 t",
+            "first": "kokkuleppel",
+            "correction": ""
+          }
+        ]
+      },
+      {
+        "title": "Hooldus",
+        "rows": [
+          {
+            "name": "Juuste taastav hooldus · 60 min",
+            "first": "65-85 €",
+            "correction": ""
+          },
+          {
+            "name": "Peanaha koorimine · 60 min",
+            "first": "50 €",
+            "correction": ""
+          },
+          {
+            "name": "Konsultatsioon · 15 min",
+            "first": "tasuta",
+            "correction": ""
+          }
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "lead": "Lohista liugurit: sealt tuleb «enne».",
+    "title": "Enne ja pärast",
+    "before": "enne",
+    "after": "pärast",
+    "slider_label": "Võrdle enne ja pärast",
+    "prev": "Eelmine slaid",
+    "next": "Järgmine slaid",
+    "photo_alt": "Töö: enne ja pärast"
+  },
+  "contact": {
+    "caps": "Broneeri aeg",
+    "title": "Broneerimine",
+    "intro": "Vali sobiv kuupäev ja kellaaeg ning saada päring. Kinnitame broneeringu kiiresti.",
+    "form": {
+      "name": "Nimi",
+      "method": "Kuidas sinuga ühendust saada?",
+      "contact": "Telefon või kasutajanimi",
+      "contact_whatsapp": "Sinu WhatsAppi number",
+      "contact_telegram": "Sinu Telegrami @kasutajanimi",
+      "contact_instagram": "Sinu Instagrami @kasutajanimi",
+      "limit": "Päevane päringute limiit on täis. Proovi homme.",
+      "service": "Teenus",
+      "service_placeholder": "Vali teenus",
+      "date": "Soovitud kuupäev",
+      "time": "Kellaaeg",
+      "time_placeholder": "Vali kellaaeg",
+      "loading_times": "Laen vabu aegu…",
+      "no_slots": "Sellel päeval vabu aegu pole. Vali teine kuupäev.",
+      "pick_date_first": "Vali kuupäev, et näha vabu aegu.",
+      "message": "Sõnum",
+      "submit": "Saada päring",
+      "sending": "Saadan…",
+      "success": "Aitäh!",
+      "success_note": "Vaatame päringu üle ja kinnitame broneeringu peagi.",
+      "notify": "Telegrami teavitused",
+      "notify_note": "Vajuta nuppu ja Start · anname teada, kui broneering kinnitatakse, muudetakse või tühistatakse.",
+      "nearest": "Lähim vaba kuupäev",
+      "no_dates": "Vabu kuupäevi veel pole. Proovi hiljem uuesti.",
+      "slot_taken": "See aeg just broneeriti, vali teine.",
+      "error": "Midagi läks valesti. Proovi uuesti.",
+      "required": "Palun täida see väli."
+    },
+    "services_options": [
+      "Lõikus · 60 min · 30-45 €",
+      "Meeste lõikus · 60 min · 25 €",
+      "Laste lõikus · 60 min · 25 €",
+      "Tuka lõikus · 15 min",
+      "Föönisoeng · 60 min · 25-30 €",
+      "Ühetooniline värvimine (lühikesed juuksed) · 2 t",
+      "Ühetooniline värvimine (keskmine pikkus) · 2 t",
+      "Ühetooniline värvimine (pikad juuksed) · 3 t · 75-85 €",
+      "Toneerimine · 60 min · 50-60 €",
+      "Triibutamine (juured) · 3 t",
+      "Triibutamine (kogu pikkus) · 4 t",
+      "Air Touch · 4-5 t · 200-300 €",
+      "Balayage · 3 t · 150-250 €",
+      "Näoümbruse helendamine · 2 t · 120-150 €",
+      "Juurte helendamine (total blond) · 3 t",
+      "Juuste taastav hooldus · 60 min · 65-85 €",
+      "Peanaha koorimine · 60 min · 50 €",
+      "Konsultatsioon · 15 min · tasuta",
+      "Muu"
+    ]
+  },
+  "footer": {
+    "tagline": "Hair & Color",
+    "rights": "Kõik õigused kaitstud.",
+    "privacy": "Privaatsuspoliitika",
+    "imprint": "Impressum"
+  },
+  "chat": {
+    "title": "Küsimused",
+    "open": "Küsi küsimus",
+    "close": "Sulge",
+    "placeholder": "Kirjuta küsimus…",
+    "send": "Saada",
+    "greeting": "Tere! Küsi teenuste, hindade või broneerimise kohta.",
+    "fallback": "Ma ei tea sellele veel vastust."
+  }
+}
