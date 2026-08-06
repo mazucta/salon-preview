@@ -12,5 +12,10 @@ export const HUB_URL = 'https://telegram-sign-up-bot.onrender.com'
 // there, otherwise the booking form returns an error.
 export const TENANT = 'studio'
 
+// Demo mode: the form validates and "succeeds" without calling the Hub, so a
+// preview link works with no tenant registered. Set to false once TENANT is
+// registered in the Hub.
+export const DEMO = true
+
 // Bookable start times — must match the Hub's TIME_SLOTS (server/google-calendar.js)
 export const TIME_SLOTS = ['10:00', '12:00', '14:00', '16:00', '18:00']

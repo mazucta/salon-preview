@@ -207,7 +207,9 @@
       "no_dates": "No free dates yet. Please try again later.",
       "slot_taken": "This slot was just taken, please pick another.",
       "error": "Something went wrong. Please try again.",
-      "required": "Please fill in this field."
+      "required": "Please fill in this field.",
+      "demo": "This is a demo",
+      "demo_note": "Nothing was sent — the demo shows the flow without a live booking. In the real version this request lands in the salon's Telegram and calendar within seconds."
     },
     "services_options": [
       "Haircut · 60 min · 30-45 €",

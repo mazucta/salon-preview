@@ -207,7 +207,9 @@
       "no_dates": "Vabu kuupäevi veel pole. Proovi hiljem uuesti.",
       "slot_taken": "See aeg just broneeriti, vali teine.",
       "error": "Midagi läks valesti. Proovi uuesti.",
-      "required": "Palun täida see väli."
+      "required": "Palun täida see väli.",
+      "demo": "See on demo",
+      "demo_note": "Midagi ei saadetud — demo näitab protsessi ilma päris broneeringuta. Päris versioonis jõuab päring sekunditega salongi Telegrami ja kalendrisse."
     },
     "services_options": [
       "Lõikus · 60 min · 30-45 €",

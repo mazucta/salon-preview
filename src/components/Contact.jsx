@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Instagram, Check, Loader2, MessageCircle, Send } from 'lucide-react'
 import SectionHeading from './SectionHeading'
 import Calendar from './Calendar'
-import { HUB_URL, TENANT, TIME_SLOTS } from '../config'
+import { HUB_URL, TENANT, TIME_SLOTS, DEMO } from '../config'
 
 const CONTACT_METHODS = [
   { id: 'whatsapp', label: 'WhatsApp', icon: MessageCircle },
@@ -29,13 +29,13 @@ export default function Contact() {
   const [daysOff, setDaysOff] = useState([]) // "YYYY-MM-DD" master is off
   const [slots, setSlots] = useState(TIME_SLOTS) // bookable times (master can customize via the bot)
   const [curated, setCurated] = useState([]) // per-date times from the bot; when set, only these dates/times are offered
-  // status: 'idle' | 'submitting' | 'sent' | 'error' | 'limit'
+  // status: 'idle' | 'submitting' | 'sent' | 'demo' | 'error' | 'limit'
   const [status, setStatus] = useState('idle')
   const [notifyUrl, setNotifyUrl] = useState('') // t.me deep link: get booking updates in Telegram
 
   // Load availability once (the Hub returns the next ~14 days of busy/daysOff)
   useEffect(() => {
-    if (!HUB_URL) return
+    if (!HUB_URL || DEMO) return
     let cancelled = false
     fetch(`${HUB_URL}/api/availability?tenant=${TENANT}`)
       .then((r) => r.json())
@@ -93,6 +93,11 @@ export default function Contact() {
     setErrors(next)
     if (Object.keys(next).length > 0) return
 
+    if (DEMO) {
+      setStatus('demo')
+      return
+    }
+
     setStatus('submitting')
     try {
       const res = await fetch(`${HUB_URL}/api/booking`, {
@@ -128,15 +133,17 @@ export default function Contact() {
       errors[name] ? 'border-brick' : 'border-line'
     }`
 
-  if (status === 'sent') {
+  if (status === 'sent' || status === 'demo') {
     return (
       <section id="contact" className="bg-base py-24 lg:py-32">
         <div className="mx-auto max-w-2xl px-6 text-center lg:px-10">
           <span className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-accent text-[#111214]">
             <Check size={28} />
           </span>
-          <SectionHeading title={t('contact.form.success')} align="center" />
-          <p className="mt-6 font-sans text-base text-muted">{t('contact.form.success_note')}</p>
+          <SectionHeading title={t(status === 'demo' ? 'contact.form.demo' : 'contact.form.success')} align="center" />
+          <p className="mt-6 font-sans text-base text-muted">
+            {t(status === 'demo' ? 'contact.form.demo_note' : 'contact.form.success_note')}
+          </p>
           {notifyUrl && (
             <div className="mt-8">
               <a
